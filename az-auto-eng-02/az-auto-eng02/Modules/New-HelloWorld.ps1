@@ -7,10 +7,11 @@ param(
 	[Parameter(Mandatory=$True, HelpMessage="Username of the person or application running the script.")]
     [string]$name
 	)
+	
 	$output = "Hello "
 	$output += $name
 	
-	return $name
+	return $output
 
 
 }
@@ -27,4 +28,3 @@ Write-Verbose "$phrase2" -Verbose
 #endregion
 
 # Log the runbook initiator
-Write-Output "Hello World" 
