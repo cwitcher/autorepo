@@ -40,6 +40,12 @@
     <Content Include="Templates\azuredeploy.parameters.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Modules\New-HelloWorld.ps1">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Runbooks\New-HelloWorldRunbook.ps1">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Target Name="GetReferenceAssemblyPaths" />
 </Project>
